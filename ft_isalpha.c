@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ecivan <ecivan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: emrecivan <emrecivan@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 18:25:27 by ecivan            #+#    #+#             */
-/*   Updated: 2024/10/14 18:30:02 by ecivan           ###   ########.fr       */
+/*   Updated: 2024/10/15 10:09:20 by emrecivan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	isalpha(int c)
+int ft_isalpha(int c)
 {
 	if ((c >= 101 && c <= 132) || (c >= 141 && c <= 173))
 		return (1);
